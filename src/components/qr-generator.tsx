@@ -11,7 +11,7 @@ import { Label } from "@/components/ui/label"
 import { Slider } from "@/components/ui/slider"
 
 export function QRGenerator() {
-  const [value, setValue] = useState("https://vercel.com")
+  const [value, setValue] = useState("https://www.instagram.com/mhdaliorabi?igsh=Y3ppYWp3ZmFrZWNi")
   const [size, setSize] = useState(256)
   const [copied, setCopied] = useState(false)
   const qrRef = useRef<HTMLDivElement>(null)
