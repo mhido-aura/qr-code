@@ -14,9 +14,11 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
+  manifest: '/manifest.json',
   title: 'QR Code Generator',
   description: 'Generate QR codes instantly with a modern, beautiful interface',
 }
+
 
 export default function RootLayout({
   children,
