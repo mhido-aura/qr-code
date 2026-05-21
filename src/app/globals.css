@@ -114,4 +114,10 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 }
+#reader {
+  width: 100%;
+}
 
+#reader video {
+  border-radius: 16px;
+}
