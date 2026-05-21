@@ -1,10 +1,15 @@
 import { QRGenerator } from "@/components/qr-generator"
+import QRScanner from "@/components/qr-scanner";
 import { ThemeToggle } from "@/components/theme-toggle"
 import { QrCode } from "lucide-react"
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
+
+      <div className="flex items-center justify-center py-10">
+        <QRScanner />
+      </div>
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-lg">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
